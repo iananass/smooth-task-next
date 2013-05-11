@@ -1,0 +1,750 @@
+# 2009-08-28
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: grosser.meister.morti@gmx.net\n"
+"POT-Creation-Date: 2009-11-07 00:47+0100\n"
+"PO-Revision-Date: 2009-09-05 23:08+0100\n"
+"Last-Translator: Maciej Warnecki <maciekw5@gmail.com>\n"
+"Language-Team: cz <kde-i18n-cz@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Language: cs_CZ\n"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, General)
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:17
+#. i18n: ectx: property (accessibleName), widget (QWidget, General)
+#: ../applet/SmoothTasks/Applet.cpp:611 rc.cpp:239 rc.cpp:242
+msgid "General"
+msgstr "Obecné"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, Appearance)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:17
+#. i18n: ectx: property (accessibleName), widget (QWidget, Appearance)
+#: ../applet/SmoothTasks/Applet.cpp:615 rc.cpp:3 rc.cpp:6
+msgid "Appearance"
+msgstr "Vzhled"
+
+#: ../applet/SmoothTasks/Applet.cpp:626
+msgid "Do Not Group"
+msgstr "Neseskupovat"
+
+#: ../applet/SmoothTasks/Applet.cpp:628
+msgid "By Program Name"
+msgstr "Podle názvu programu"
+
+#: ../applet/SmoothTasks/Applet.cpp:638
+msgid "Do Not Sort"
+msgstr "Neseřazovat"
+
+#: ../applet/SmoothTasks/Applet.cpp:639
+msgid "Manually"
+msgstr "Ručně"
+
+#: ../applet/SmoothTasks/Applet.cpp:640
+msgid "Alphabetically"
+msgstr "Podle abecedy"
+
+#: ../applet/SmoothTasks/Applet.cpp:641
+msgid "By Desktop"
+msgstr "Podle plochy"
+
+#: ../applet/SmoothTasks/Applet.cpp:645
+msgid "No Action"
+msgstr ""
+
+#: ../applet/SmoothTasks/Applet.cpp:646
+msgid "Close Task"
+msgstr ""
+
+#: ../applet/SmoothTasks/Applet.cpp:647
+#, fuzzy
+msgid "Move to Current Desktop"
+msgstr "Z aktivní plochy"
+
+#: ../applet/SmoothTasks/Applet.cpp:651
+msgid "Rectangle"
+msgstr "Obdélník"
+
+#: ../applet/SmoothTasks/Applet.cpp:652
+msgid "Square"
+msgstr "Čtverec"
+
+#: ../applet/SmoothTasks/Applet.cpp:677 ../applet/SmoothTasks/Applet.cpp:696
+msgid "None"
+msgstr "Žádné"
+
+#: ../applet/SmoothTasks/Applet.cpp:678
+msgid "Smooth"
+msgstr "Plynulé"
+
+#: ../applet/SmoothTasks/Applet.cpp:679
+msgid "Plasma"
+msgstr "Plasma"
+
+#: ../applet/SmoothTasks/Applet.cpp:683
+msgid "By Taskbar Shape"
+msgstr "Podle velikosti"
+
+#: ../applet/SmoothTasks/Applet.cpp:684
+msgid "Maximum Squeeze"
+msgstr "Podle maximální velikosti"
+
+#: ../applet/SmoothTasks/Applet.cpp:685
+msgid "Fixed Item Number per Row"
+msgstr "Pevný počet položek v řadě"
+
+#: ../applet/SmoothTasks/Applet.cpp:686
+msgid "Limited Squeeze"
+msgstr "Omezené stlačení"
+
+#: ../applet/SmoothTasks/Applet.cpp:687
+msgid "Fixed Maximum Item Height"
+msgstr "Pevná maximální výška položky"
+
+#: ../applet/SmoothTasks/Applet.cpp:697
+msgid "Active"
+msgstr "Aktivní"
+
+#: ../applet/SmoothTasks/Applet.cpp:698
+msgid "From the current desktop"
+msgstr "Z aktivní plochy"
+
+#: ../applet/SmoothTasks/Applet.cpp:699
+msgid "All"
+msgstr "Všechny"
+
+#: ../applet/SmoothTasks/Applet.cpp:705
+msgid "Classic"
+msgstr "Klasické"
+
+#: ../applet/SmoothTasks/Applet.cpp:706
+msgid "New"
+msgstr "Nový"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:81
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:105
+#: ../applet/SmoothTasks/Task.cpp:121
+#: ../applet/SmoothTasks/WindowPreview.cpp:270
+msgid "On all desktops"
+msgstr "Na všech plochách"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:82
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:108
+#: ../applet/SmoothTasks/Task.cpp:122
+#: ../applet/SmoothTasks/WindowPreview.cpp:271
+msgctxt "Which virtual desktop a window is currently on"
+msgid "On %1"
+msgstr "Na %1"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:107
+msgid "On various desktops"
+msgstr "Na různých plochách"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:114
+#: ../applet/SmoothTasks/Task.cpp:116
+#: ../applet/SmoothTasks/WindowPreview.cpp:268
+msgid "Starting application..."
+msgstr "Spouští se aplikace..."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:27
+#. i18n: ectx: attribute (title), widget (QWidget, taskItemsTab)
+#: rc.cpp:9
+msgid "Task Items"
+msgstr "Položky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:48
+#. i18n: ectx: property (text), widget (QLabel, taskShapeLabel)
+#: rc.cpp:12
+msgid "Task &Shape:"
+msgstr "&Tvar položek:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:70
+#. i18n: ectx: property (toolTip), widget (QComboBox, shape)
+#: rc.cpp:15
+msgid ""
+"<p>This setting is only effective when there is enough room in the taskbar "
+"to display the task items in the according shape.</p>\n"
+"\n"
+"<h4>Rectangle</h4>\n"
+"<p>Displays collapsed task items as rectangles.</p>\n"
+"\n"
+"<h4>Square</h4>\n"
+"<p>Displays collapsed task items as squares.</p>"
+msgstr ""
+"<p>Toto nastavení je použito pouze pokud je má applet dost místa, aby "
+"zobrazil ikony ve správném tvaru</p>\n"
+"\n"
+"<h4>Obdelník</h4>\n"
+"<p>Zobrazí nerozšířené úlohy jako obdélníky </p>\n"
+"\n"
+"<h4>Čtverec</h4>\n"
+"<p>Zobrazí nerozšířené úlohy jako čverce</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:77
+#. i18n: ectx: property (text), widget (QLabel, spaceLabel)
+#: rc.cpp:24
+msgid "Space &Between Tasks:"
+msgstr "Prostor mezi ikonami:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:93
+#. i18n: ectx: property (suffix), widget (QSpinBox, taskSpacing)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:195
+#. i18n: ectx: property (suffix), widget (QSpinBox, expandingSize)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:667
+#. i18n: ectx: property (suffix), widget (QSpinBox, itemHeight)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:790
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxPreviewSize)
+#: rc.cpp:27 rc.cpp:49 rc.cpp:159 rc.cpp:193
+msgid "px"
+msgstr "px"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:103
+#. i18n: ectx: property (text), widget (QLabel, iconScaleLabel)
+#: rc.cpp:30
+msgid "&Icon Scale:"
+msgstr "&Velikost ikony:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:119
+#. i18n: ectx: property (toolTip), widget (QSpinBox, iconScale)
+#: rc.cpp:33
+msgid ""
+"The scale of the task icons in relation to the height/width (whatever is "
+"smaller) of the task item."
+msgstr "Měřítko velikosti ikony podle výšky/šířky (co je menší) položky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:122
+#. i18n: ectx: property (suffix), widget (QSpinBox, iconScale)
+#: rc.cpp:37
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:166
+#. i18n: ectx: property (text), widget (QCheckBox, expandTasks)
+#: rc.cpp:40
+msgid "&Expand Tasks"
+msgstr "&Rozšířit položky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:176
+#. i18n: ectx: property (text), widget (QLabel, expandingSizeLabel)
+#: rc.cpp:43
+msgid "E&xpanding Size:"
+msgstr "Velikost rozšíření"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:192
+#. i18n: ectx: property (toolTip), widget (QSpinBox, expandingSize)
+#: rc.cpp:46
+msgid ""
+"This is the additional size that gets added to a task item when it expands. "
+"Keep in mind that the task items might not be able to expand fully when "
+"there is not enough room."
+msgstr ""
+"Velikost o kterou je položka rozšířená.\n"
+"Tato hodnota je dosažena, pouze pokud je dostatek místa"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:214
+#. i18n: ectx: property (text), widget (QLabel, keepExpandedLabel)
+#: rc.cpp:52
+msgid "&Keep Expanded:"
+msgstr "Ponechat rozšířené:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:274
+#. i18n: ectx: property (toolTip), widget (QCheckBox, lights)
+#: rc.cpp:55
+msgid ""
+"When this is checked a blob of light is drawn on the task items when you "
+"hover them or when they demand attention."
+msgstr ""
+"Povolí zobrazení podsvícení pod položkami, \n"
+"když jsou označeny nebo vyžadují pozornost"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:277
+#. i18n: ectx: property (text), widget (QCheckBox, lights)
+#: rc.cpp:58
+msgid "&Lights"
+msgstr "Podsvícení"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:308
+#. i18n: ectx: property (text), widget (QCheckBox, expandOnHover)
+#: rc.cpp:61
+msgid "Expand on &Hover"
+msgstr "Rozšířit při označení"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:318
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dontRotateFrame)
+#: rc.cpp:64
+msgid ""
+"For some plasma themes task items might look better when their frames are "
+"not rotated. This only concerns vertical layouts, e.g. when you place the "
+"taskbar at the left (or right) screen edge."
+msgstr ""
+"Pro některé motivy plasmy můžou neotočené rámečky vypadat lépe. \n"
+"Týká se to pouze případů, kdy je panel umístěný po stranách obrazovky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:321
+#. i18n: ectx: property (text), widget (QCheckBox, dontRotateFrame)
+#: rc.cpp:67
+msgid "Don't &Rotate Frames"
+msgstr "Neotáčet rámečky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:331
+#. i18n: ectx: property (toolTip), widget (QCheckBox, onlyLights)
+#: rc.cpp:70
+msgid ""
+"Usually a different frame for hovered task items is used. But for some "
+"plasma themes this might look ugly in combination with the light effect. "
+"Using this option you can deactivate the usage of a different task item "
+"frame on hover."
+msgstr ""
+"Použije pouze efekt “podsvícení“ pouze při najetí myší \n"
+"(tzn. nezmění tvar a zvýraznění rámečku)"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:334
+#. i18n: ectx: property (text), widget (QCheckBox, onlyLights)
+#: rc.cpp:73
+msgid "As &Only Hover Effect"
+msgstr "Pouze efekt podsvícení"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:344
+#. i18n: ectx: property (text), widget (QCheckBox, textShadow)
+#: rc.cpp:76
+msgid "Draw &Text-Shadow"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:357
+#. i18n: ectx: property (toolTip), widget (QCheckBox, lightColorFromIcon)
+#: rc.cpp:79
+msgid ""
+"When this is checked the dominant color of the task icon is used as the "
+"light color. When only an ugly (grayish) color could be extracted the color "
+"specified above is used instead."
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:360
+#. i18n: ectx: property (text), widget (QCheckBox, lightColorFromIcon)
+#: rc.cpp:82
+msgid "Color From &Icon"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:373
+#. i18n: ectx: property (text), widget (QLabel, colorLabel)
+#: rc.cpp:85
+msgid "&Color:"
+msgstr "Barva"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:383
+#. i18n: ectx: property (text), widget (QCheckBox, scrollSwitchTasks)
+#: rc.cpp:88
+msgid "Switch Tasks using &Wheel"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:396
+#. i18n: ectx: property (text), widget (QCheckBox, expandOnAttention)
+#: rc.cpp:91
+#, fuzzy
+msgid "Expand on &Attention"
+msgstr "Rozšířit při označení"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:404
+#. i18n: ectx: attribute (title), widget (QWidget, taskbarLayoutTab)
+#: rc.cpp:94
+msgid "Taskbar Layout"
+msgstr "Uspořádání panelu"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:431
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:97
+msgid "Row Constraints"
+msgstr "Omezení počtu řad"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:438
+#. i18n: ectx: property (text), widget (QLabel, minimumRowsLabel)
+#: rc.cpp:100
+msgid "&Minimum Rows:"
+msgstr "&Minimální počet řad"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:454
+#. i18n: ectx: property (toolTip), widget (QSpinBox, minimumRows)
+#: rc.cpp:103
+msgid ""
+"This defines the minimum row count. Some layouts stretch the filled rows in "
+"order to fill any empty space. This way the displayed rows might be still "
+"fewer than this value."
+msgstr ""
+"Toto definuje minimální počet řad. Některé uspořádání\n"
+" roztahují naplněné řady, aby obsadili prázdný prostor"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:467
+#. i18n: ectx: property (text), widget (QLabel, maximumRowsLabel)
+#: rc.cpp:106
+msgid "Ma&ximum Rows:"
+msgstr "Ma&ximální počet řad"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:483
+#. i18n: ectx: property (toolTip), widget (QSpinBox, maximumRows)
+#: rc.cpp:109
+msgid "This defines the maximum row count."
+msgstr "Definuje maximální počet řad"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:523
+#. i18n: ectx: property (text), widget (QLabel, taskbarLayoutLabel)
+#: rc.cpp:112
+msgid "&Layout:"
+msgstr "Uspořádání:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:559
+#. i18n: ectx: property (toolTip), widget (QComboBox, taskbarLayout)
+#: rc.cpp:115
+msgid ""
+"<p>The layout is responsible for the size and placement of the task items.\n"
+"Each of the provided layouts has other advantages and disadvantages.\n"
+"Because I can't decide which layouting strategy is best suited for this "
+"purpose I include several choices for now.</p>\n"
+"\n"
+"<h4>By Taskbar Shape</h4>\n"
+"<p>This layout creates as much rows as are needed so that following "
+"condition is met:</p>\n"
+"<pre>row height &times; row aspect ratio &le; row width</pre>\n"
+"<p>However, if this would yield empty rows the filled rows are scaled in "
+"height so that the whole task bar space is covered.</p>\n"
+"\n"
+"<h4>Maximum Squeeze</h4>\n"
+"<p>Because the width of the task items depends of their height the more rows "
+"there are the less room the items occupy.\n"
+"This layout sets the width of the task items always to the width they would "
+"have when the row count would have reached the maximally allowed value.\n"
+"\n"
+"<h4>Fixed Item Number per Row</h4>\n"
+"<p>This layout always put the configured number of task items into one row, "
+"unless there would not be enough room for all task items.\n"
+"Then the items are distributed evenly over the rows.</p>\n"
+"\n"
+"<h4>Limited Squeeze</h4>\n"
+"<p>This layout tries to squeeze the task items only up to a given maximum "
+"squeeze ratio. If it would have to squeeze them more than that it creates a "
+"new row. Currently this layout is the only one that respects the “Prefer "
+"Grouping” setting.</p>\n"
+"\n"
+"<h4>Fixed Maximum Item Height</h4>\n"
+"<p>This layout always assumes the configured height of the task items.\n"
+"Through the dependency between the width and height of the task items this "
+"leads to a specific distribution of the items.\n"
+"This layout does not fill empty space by up-scaling the rows.</p>"
+msgstr ""
+"<p>Uspořádání je odpovědné za velikost a umístění položek.\n"
+"Každé poskytované uspořádání má své výhody a nevýhody.\n"
+"Protože nelze určit, které je nejlepší, \n"
+"tak si můžete sami vybrat.</p>\n"
+"\n"
+"<h4>Podle velikosti</h4>\n"
+"<p>Toto uspořádání vytváří tolik řad, kolik je potřeba, \n"
+"aby byla splněna podmínka:</p>\n"
+"<pre>šířka řady &times; poměr délky řady &le; délka řady</pre>\n"
+"\n"
+"<h4>Podle maximální velikosti</h4>\n"
+"<p>Jelikož šířka položek závisí na jejich výšce,\n"
+" tak čím více je řad, tím měně místa položky zabírají.\n"
+"Toto uspořádání nastavuje šířku úloh takovou jakou,\n"
+" jakou by měly pokud by počet řad dosáhl svého maximální počtu\n"
+"\n"
+"<h4>Omezené stlačení ikon</h4>\n"
+"<p>Toto uspořádání se snaží udržet stlačení ikon pod určitou mez. Pokud\n"
+"jsou ikony moc stlačené (jak moc si můžete nastavit) tak se vytvoří nová "
+"řada. \n"
+"Pokud chcete, aby se při nedostatku místa nejdříve ikony seskupily, tak "
+"vyberte \n"
+"volbu ”Preferovat seskupování”. </p>\n"
+"\n"
+"<h4>Pevný počet položek v řadě</h4>\n"
+"<p>Toto uspořádání dá do jedné řády maximálně přednastavený počet položek\n"
+"<h4>Pevná maximální výška položky</h4>\n"
+"<p>Toto uspořádání vždy předpokládá nastavenou výšku položky.\n"
+"Pomocí závislosti mezi výškou a šířkou položky se to pokusí správně rozdělit "
+"položky.\n"
+"Toto uspořádání nevyplňuje prázdný prostor způsobený zvětšením řad.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:584
+#. i18n: ectx: property (text), widget (QLabel, rowAspectRatioLabel)
+#: rc.cpp:141
+msgid "Row &Aspect Ratio:"
+msgstr "Poměr délky řady"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:597
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, rowAspectRatio)
+#: rc.cpp:144
+msgid ""
+"The “By Taskbar Shape” layout uses this value to determine how many rows "
+"should be created."
+msgstr ""
+"Uspořádní “Podle velikosti“ používá tuto hodnotu\n"
+" ke zjištění kolik řad by mělo být vytvořeno"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:619
+#. i18n: ectx: property (text), widget (QLabel, itemsPerRowLabel)
+#: rc.cpp:147
+msgid "&Items per Row:"
+msgstr "Počet položek na řadu"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:635
+#. i18n: ectx: property (toolTip), widget (QSpinBox, itemsPerRow)
+#: rc.cpp:150
+msgid ""
+"The “Fixed Item Number per Row” layout uses this amount to fill the rows "
+"with task items."
+msgstr ""
+"Uspořádání “Pevný počet položek v řadě“  používá tuto hodnotu pro naplnění "
+"řady"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:648
+#. i18n: ectx: property (text), widget (QLabel, itemHeightLabel)
+#: rc.cpp:153
+msgid "Maximum Item &Height:"
+msgstr "Maximální výška položky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:664
+#. i18n: ectx: property (toolTip), widget (QSpinBox, itemHeight)
+#: rc.cpp:156
+msgid ""
+"The “Fixed Maximum Item Height” layout uses this value to determine the size "
+"of the task items."
+msgstr ""
+"Uspořádní “Pevná maximální výška položky“ používá tuto hodnotu\n"
+"ke zjištění velikosti položek"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:680
+#. i18n: ectx: property (text), widget (QLabel, squeezeRatioLabel)
+#: rc.cpp:162
+msgid "Maximum &Squeeze Ratio:"
+msgstr "Podle maximální velikosti"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:693
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, squeezeRatio)
+#: rc.cpp:165
+msgid ""
+"<p>The “Limited Squeeze” layout tries not to squeeze items so that "
+"<tt>squeezed item width / item width &ge; maximum squeeze ratio</tt>.</p>"
+msgstr ""
+"<p>Uspořádání “Omezené stlačení” se snaží aby stlačení ikon odpovídalo "
+"podmínce <tt>stlačená šířka položky / šířka položky &ge; maximální stlačení</"
+"tt>.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:715
+#. i18n: ectx: property (toolTip), widget (QCheckBox, preferGrouping)
+#: rc.cpp:168
+msgid ""
+"Prefere grouping of tasks over the creation of new rows (currently only "
+"supported by the Limited Squeeze” layout)."
+msgstr ""
+"Preferovat seskupování ikon před vytvořením nové řady (podporováno pouze "
+"uspořádáním “Omezené stlačení”)."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:718
+#. i18n: ectx: property (text), widget (QCheckBox, preferGrouping)
+#: rc.cpp:171
+msgid "&Prefer Grouping"
+msgstr "&Preferovat seskupování"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:726
+#. i18n: ectx: attribute (title), widget (QWidget, toolTipTab)
+#: rc.cpp:174
+msgid "Tool Tip"
+msgstr "Nástrojové tipy"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:744
+#. i18n: ectx: property (text), widget (QLabel, previewLayoutLabel)
+#: rc.cpp:177
+msgid "Preview St&yle:"
+msgstr "&Styl náhledu:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:764
+#. i18n: ectx: property (toolTip), widget (QComboBox, previewLayout)
+#: rc.cpp:180
+msgid ""
+"<h4>Classic</h4>\n"
+"<p><img src=\":/imgs/imgs/classic-style.png\" /></p>\n"
+"\n"
+"<h4>New</h4>\n"
+"<p><img src=\":/imgs/imgs/new-style.png\" /></p>"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:771
+#. i18n: ectx: property (text), widget (QLabel, maxPreviewSizeLabel)
+#: rc.cpp:187
+msgid "Preview Si&ze:"
+msgstr "&Velikost náhledu"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:787
+#. i18n: ectx: property (toolTip), widget (QSpinBox, maxPreviewSize)
+#: rc.cpp:190
+msgid "This value defines the maximum length of one side of window previews."
+msgstr "Maximální sířka/výška náhledu"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:820
+#. i18n: ectx: property (text), widget (QLabel, toolTipKindLabel)
+#: rc.cpp:196
+msgid "Tool Tip &Type:"
+msgstr "&Typ náhledu:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:840
+#. i18n: ectx: property (toolTip), widget (QComboBox, toolTipKind)
+#: rc.cpp:199
+msgid ""
+"<h4>None</h4>\n"
+"<p>Don't display tool tips.</p>\n"
+"\n"
+"<h4>Smooth</h4>\n"
+"<p>Use advanced tool tips for the task items. These tool tips show window "
+"previews that can be clicked to activate the corresponding window. When you "
+"hover the preview the window gets highlighted. However, this kind of tool "
+"tip is not well integrated with plasma.</p>\n"
+"\n"
+"<h4>Plasma</h4>\n"
+"<p>Use native plasma tool tips. This kind of tool tips do not provide the "
+"features described above. Instead they integrate well with other applet's "
+"tool tips and move animated across applets.</p>"
+msgstr ""
+"<h4>Žádný</h4>\n"
+"<p>Nezobrazuje žádné náhledy.</p>\n"
+"\n"
+"<h4>Plynulé</h4>\n"
+"<p>Používá vylepšené náhledy, na náhledy se dá klikonout pro vybrání.\n"
+"Po najetí myší se vybrané onko zvýrazní (kwin efekt).\n"
+"Bohužel tyto vylepšené náhledy nejou plně integrovány v plasmé</p>\n"
+"\n"
+"<h4>Plasma</h4>\n"
+"<p>Originální náhledy správce aplikací. Neposkytují takové možnosti\n"
+"jako předchozí, ale jsou lépe integrovány.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:862
+#. i18n: ectx: property (suffix), widget (QSpinBox, tooltipMoveDuration)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:895
+#. i18n: ectx: property (suffix), widget (QSpinBox, highlightDelay)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:978
+#. i18n: ectx: property (suffix), widget (QSpinBox, animationDuration)
+#: rc.cpp:209 rc.cpp:218 rc.cpp:236
+msgid "ms"
+msgstr "ms"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:875
+#. i18n: ectx: property (text), widget (QLabel, tooltipMoveDurationLabel)
+#: rc.cpp:212
+#, fuzzy
+msgid "Move &Duration:"
+msgstr "Doba trvání animace"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:885
+#. i18n: ectx: property (text), widget (QLabel, highlightDelayLabel)
+#: rc.cpp:215
+msgid "&Highlight Delay:"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:909
+#. i18n: ectx: attribute (title), widget (QWidget, animationTab)
+#: rc.cpp:221
+msgid "Animation"
+msgstr "Animace"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:927
+#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
+#: rc.cpp:224
+msgid "&Frames per Second:"
+msgstr "Snímků za sekundu:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:943
+#. i18n: ectx: property (suffix), widget (QSpinBox, fps)
+#: rc.cpp:227
+msgid "fps"
+msgstr "fps"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:959
+#. i18n: ectx: property (text), widget (QLabel, animationDurationLabel)
+#: rc.cpp:230
+msgid "&Animation Duration:"
+msgstr "Doba trvání animace"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:975
+#. i18n: ectx: property (toolTip), widget (QSpinBox, animationDuration)
+#: rc.cpp:233
+msgid ""
+"This defines the duration of animations like the expansion of tasks and the "
+"delay for which a tool tip will be shown after you stopped hovering the task "
+"item or tool tip."
+msgstr ""
+"Toto definuje trvání animace jako je rozšíření úlohy a zpoždění\n"
+" po které bude náhled zobrazován po odsunití myši"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:44
+#. i18n: ectx: property (text), widget (QLabel, groupingAndSportingLabel)
+#: rc.cpp:245
+msgid "Grouping & Sorting"
+msgstr "Seskupování & řazení"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:51
+#. i18n: ectx: property (text), widget (QLabel, groupingLabel)
+#: rc.cpp:248
+msgid "&Grouping:"
+msgstr "&Seskupování:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, onlyGroupWhenFull)
+#: rc.cpp:251
+msgid "Only when the taskbar is &full"
+msgstr "Pouze pokud je taskbar plný"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:98
+#. i18n: ectx: property (text), widget (QLabel, sortingLabel)
+#: rc.cpp:254
+msgid "&Sorting:"
+msgstr "Řa&zení:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:136
+#. i18n: ectx: property (text), widget (QLabel, filtersLabel)
+#: rc.cpp:257
+msgid "Filters"
+msgstr "Filtry"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyMinimized)
+#: rc.cpp:260
+msgid "Only show tasks that are &minimized"
+msgstr "Ukaž pouze &minimalizované úlohy"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:188
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
+#: rc.cpp:263
+msgid "Only show tasks from the current &desktop"
+msgstr "Ukaž úlohy pouze ze &současné plochy"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:215
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentScreen)
+#: rc.cpp:266
+msgid "Only show tasks from the current s&creen"
+msgstr "Ukaž úlohy pouze z &aktuální obrazovky"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:237
+#. i18n: ectx: property (text), widget (QLabel, middleClickActionLabel)
+#: rc.cpp:269
+msgid "Middle Click &Action:"
+msgstr ""
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:247
+#. i18n: ectx: property (toolTip), widget (QComboBox, middleClickAction)
+#: rc.cpp:272
+msgid "Action that should be performed when a task item is middle clicked."
+msgstr ""
+
+#: rc.cpp:273
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Michal Odstrčil"
+
+#: rc.cpp:274
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "michal@qmail.com"

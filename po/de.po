@@ -1,0 +1,769 @@
+# 2009-08-28
+# Markus Slopianka <kamikazow@web.de>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: grosser.meister.morti@gmx.net\n"
+"POT-Creation-Date: 2009-11-07 00:47+0100\n"
+"PO-Revision-Date: 2009-10-24 15:05+0200\n"
+"Last-Translator: Markus Slopianka <kamikazow@web.de>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, General)
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:17
+#. i18n: ectx: property (accessibleName), widget (QWidget, General)
+#: ../applet/SmoothTasks/Applet.cpp:611 rc.cpp:239 rc.cpp:242
+msgid "General"
+msgstr "Allgemein"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, Appearance)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:17
+#. i18n: ectx: property (accessibleName), widget (QWidget, Appearance)
+#: ../applet/SmoothTasks/Applet.cpp:615 rc.cpp:3 rc.cpp:6
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: ../applet/SmoothTasks/Applet.cpp:626
+msgid "Do Not Group"
+msgstr "Nicht gruppieren"
+
+#: ../applet/SmoothTasks/Applet.cpp:628
+msgid "By Program Name"
+msgstr "Nach Programmname"
+
+#: ../applet/SmoothTasks/Applet.cpp:638
+msgid "Do Not Sort"
+msgstr "Nicht sortieren"
+
+#: ../applet/SmoothTasks/Applet.cpp:639
+msgid "Manually"
+msgstr "Manuell"
+
+#: ../applet/SmoothTasks/Applet.cpp:640
+msgid "Alphabetically"
+msgstr "Alphabetisch"
+
+#: ../applet/SmoothTasks/Applet.cpp:641
+msgid "By Desktop"
+msgstr "Nach Arbeitsfläche"
+
+#: ../applet/SmoothTasks/Applet.cpp:645
+msgid "No Action"
+msgstr "Keine Aktion"
+
+#: ../applet/SmoothTasks/Applet.cpp:646
+msgid "Close Task"
+msgstr "Task Beenden"
+
+#: ../applet/SmoothTasks/Applet.cpp:647
+msgid "Move to Current Desktop"
+msgstr "Auf die Aktuelle Arbeitsfläche Verschieben"
+
+#: ../applet/SmoothTasks/Applet.cpp:651
+msgid "Rectangle"
+msgstr "Rechteck"
+
+#: ../applet/SmoothTasks/Applet.cpp:652
+msgid "Square"
+msgstr "Quadrat"
+
+#: ../applet/SmoothTasks/Applet.cpp:677 ../applet/SmoothTasks/Applet.cpp:696
+msgid "None"
+msgstr "Keine"
+
+#: ../applet/SmoothTasks/Applet.cpp:678
+msgid "Smooth"
+msgstr "Smooth"
+
+#: ../applet/SmoothTasks/Applet.cpp:679
+msgid "Plasma"
+msgstr "Plasma"
+
+#: ../applet/SmoothTasks/Applet.cpp:683
+msgid "By Taskbar Shape"
+msgstr "Nach der Form der Taskleiste"
+
+#: ../applet/SmoothTasks/Applet.cpp:684
+msgid "Maximum Squeeze"
+msgstr "Maximale Dichte"
+
+#: ../applet/SmoothTasks/Applet.cpp:685
+msgid "Fixed Item Number per Row"
+msgstr "Fixe Anzahl von Tasks pro Zeile"
+
+#: ../applet/SmoothTasks/Applet.cpp:686
+msgid "Limited Squeeze"
+msgstr "Beschränkte Komprimierung"
+
+#: ../applet/SmoothTasks/Applet.cpp:687
+msgid "Fixed Maximum Item Height"
+msgstr "Fixe maximale Task-Höhe"
+
+#: ../applet/SmoothTasks/Applet.cpp:697
+msgid "Active"
+msgstr "Aktive"
+
+#: ../applet/SmoothTasks/Applet.cpp:698
+msgid "From the current desktop"
+msgstr "Von der aktuellen Arbeitsfläche"
+
+#: ../applet/SmoothTasks/Applet.cpp:699
+msgid "All"
+msgstr "Alle"
+
+#: ../applet/SmoothTasks/Applet.cpp:705
+msgid "Classic"
+msgstr "Klassisch"
+
+#: ../applet/SmoothTasks/Applet.cpp:706
+msgid "New"
+msgstr "Neu"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:81
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:105
+#: ../applet/SmoothTasks/Task.cpp:121
+#: ../applet/SmoothTasks/WindowPreview.cpp:270
+msgid "On all desktops"
+msgstr "Auf allen Arbeitsflächen"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:82
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:108
+#: ../applet/SmoothTasks/Task.cpp:122
+#: ../applet/SmoothTasks/WindowPreview.cpp:271
+msgctxt "Which virtual desktop a window is currently on"
+msgid "On %1"
+msgstr "Auf %1"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:107
+msgid "On various desktops"
+msgstr "Auf verschiedenen Arbeitsflächen"
+
+#: ../applet/SmoothTasks/PlasmaToolTip.cpp:114
+#: ../applet/SmoothTasks/Task.cpp:116
+#: ../applet/SmoothTasks/WindowPreview.cpp:268
+msgid "Starting application..."
+msgstr "Programm wird gestartet..."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:27
+#. i18n: ectx: attribute (title), widget (QWidget, taskItemsTab)
+#: rc.cpp:9
+msgid "Task Items"
+msgstr "Tasks"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:48
+#. i18n: ectx: property (text), widget (QLabel, taskShapeLabel)
+#: rc.cpp:12
+msgid "Task &Shape:"
+msgstr "Task&form:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:70
+#. i18n: ectx: property (toolTip), widget (QComboBox, shape)
+#: rc.cpp:15
+msgid ""
+"<p>This setting is only effective when there is enough room in the taskbar "
+"to display the task items in the according shape.</p>\n"
+"\n"
+"<h4>Rectangle</h4>\n"
+"<p>Displays collapsed task items as rectangles.</p>\n"
+"\n"
+"<h4>Square</h4>\n"
+"<p>Displays collapsed task items as squares.</p>"
+msgstr ""
+"<p>Diese Option is nur effektiv wenn in der Taskleiste genug Platz vorhanden "
+"ist um die jeweilige Form anzuzeigen.</p>\n"
+"\n"
+"<h4>Rechteck</h4>\n"
+"<p>Zeigt zugeklappte Tasks als Rechteck an.</p>\n"
+"\n"
+"<h4>Quadrat</h4>\n"
+"<p>Zeigt zugeklappte Tasks als Quadrat an.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:77
+#. i18n: ectx: property (text), widget (QLabel, spaceLabel)
+#: rc.cpp:24
+msgid "Space &Between Tasks:"
+msgstr "&Platz zwischen den Programmen:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:93
+#. i18n: ectx: property (suffix), widget (QSpinBox, taskSpacing)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:195
+#. i18n: ectx: property (suffix), widget (QSpinBox, expandingSize)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:667
+#. i18n: ectx: property (suffix), widget (QSpinBox, itemHeight)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:790
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxPreviewSize)
+#: rc.cpp:27 rc.cpp:49 rc.cpp:159 rc.cpp:193
+msgid "px"
+msgstr "px"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:103
+#. i18n: ectx: property (text), widget (QLabel, iconScaleLabel)
+#: rc.cpp:30
+msgid "&Icon Scale:"
+msgstr "&Symbolskalierung:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:119
+#. i18n: ectx: property (toolTip), widget (QSpinBox, iconScale)
+#: rc.cpp:33
+msgid ""
+"The scale of the task icons in relation to the height/width (whatever is "
+"smaller) of the task item."
+msgstr ""
+"Die Skalierung der Tasks in Relation zu der Höhe/Breite (was auch immer "
+"kleiner ist) des Tasks."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:122
+#. i18n: ectx: property (suffix), widget (QSpinBox, iconScale)
+#: rc.cpp:37
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:166
+#. i18n: ectx: property (text), widget (QCheckBox, expandTasks)
+#: rc.cpp:40
+msgid "&Expand Tasks"
+msgstr "Tasks aus&klappen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:176
+#. i18n: ectx: property (text), widget (QLabel, expandingSizeLabel)
+#: rc.cpp:43
+msgid "E&xpanding Size:"
+msgstr "&Ausklappgröße:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:192
+#. i18n: ectx: property (toolTip), widget (QSpinBox, expandingSize)
+#: rc.cpp:46
+msgid ""
+"This is the additional size that gets added to a task item when it expands. "
+"Keep in mind that the task items might not be able to expand fully when "
+"there is not enough room."
+msgstr ""
+"Dies ist die zusätzliche Breite, die ein Task erhält, wenn er aufgeklappt "
+"wird. Wenn nicht genug Platz in der Taskleiste vorhanden ist, kann dieser "
+"Wert auch unterschritten werden."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:214
+#. i18n: ectx: property (text), widget (QLabel, keepExpandedLabel)
+#: rc.cpp:52
+msgid "&Keep Expanded:"
+msgstr "Ausgeklappt &lassen:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:274
+#. i18n: ectx: property (toolTip), widget (QCheckBox, lights)
+#: rc.cpp:55
+msgid ""
+"When this is checked a blob of light is drawn on the task items when you "
+"hover them or when they demand attention."
+msgstr ""
+"Wenn diese Option ausgewählt ist wird ein Licht-Fleck auf den Tasks "
+"angezeigt wenn die Maus diese berührt oder der Task Aufmerksamkeit verlangt."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:277
+#. i18n: ectx: property (text), widget (QCheckBox, lights)
+#: rc.cpp:58
+msgid "&Lights"
+msgstr "&Beleuchtung"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:308
+#. i18n: ectx: property (text), widget (QCheckBox, expandOnHover)
+#: rc.cpp:61
+msgid "Expand on &Hover"
+msgstr "Bei &Mauskontakt aufklappen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:318
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dontRotateFrame)
+#: rc.cpp:64
+msgid ""
+"For some plasma themes task items might look better when their frames are "
+"not rotated. This only concerns vertical layouts, e.g. when you place the "
+"taskbar at the left (or right) screen edge."
+msgstr ""
+"Für manche Plasma-Schemata sieht es eventuell besser aus, wenn die Rahmen "
+"der Tasks nicht rotiert werden. Dies betrifft nur vertikale Layouts, z.B. "
+"wenn die Taskleiste am linken (oder rechten) Bildschirmrand platziert ist."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:321
+#. i18n: ectx: property (text), widget (QCheckBox, dontRotateFrame)
+#: rc.cpp:67
+msgid "Don't &Rotate Frames"
+msgstr "Rahmen &nicht rotieren"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:331
+#. i18n: ectx: property (toolTip), widget (QCheckBox, onlyLights)
+#: rc.cpp:70
+msgid ""
+"Usually a different frame for hovered task items is used. But for some "
+"plasma themes this might look ugly in combination with the light effect. "
+"Using this option you can deactivate the usage of a different task item "
+"frame on hover."
+msgstr ""
+"Normalerweise wird wenn die Maus einen Task berührt ein anderer Rahmen um "
+"den Task gezeichnet. Bei manchen Plasma Themen sieht dies jedoch hässlich "
+"aus, wenn der Lichteffekt verwendet wird. Mit dieser Option kann verhindert "
+"werden, dass bei Berührung ein anderer Rahmen gezeichnet wird."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:334
+#. i18n: ectx: property (text), widget (QCheckBox, onlyLights)
+#: rc.cpp:73
+msgid "As &Only Hover Effect"
+msgstr "&Einziger Effekt bei Berührung"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:344
+#. i18n: ectx: property (text), widget (QCheckBox, textShadow)
+#: rc.cpp:76
+msgid "Draw &Text-Shadow"
+msgstr "&Textschatten anzeigen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:357
+#. i18n: ectx: property (toolTip), widget (QCheckBox, lightColorFromIcon)
+#: rc.cpp:79
+msgid ""
+"When this is checked the dominant color of the task icon is used as the "
+"light color. When only an ugly (grayish) color could be extracted the color "
+"specified above is used instead."
+msgstr ""
+"Unter Verwendung dieser Option wird die für das Licht die dominante Farbe "
+"des Task Symbols verwendet. Sollte nur eine hässliche (graue) Farbe aus dem "
+"Symbol extrahiert werden können, dann wird die Farbe von oben verwendet."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:360
+#. i18n: ectx: property (text), widget (QCheckBox, lightColorFromIcon)
+#: rc.cpp:82
+msgid "Color From &Icon"
+msgstr "Farbe vom Programmsymbol"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:373
+#. i18n: ectx: property (text), widget (QLabel, colorLabel)
+#: rc.cpp:85
+msgid "&Color:"
+msgstr "&Farbe:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:383
+#. i18n: ectx: property (text), widget (QCheckBox, scrollSwitchTasks)
+#: rc.cpp:88
+msgid "Switch Tasks using &Wheel"
+msgstr "Tasks mit dem &Mausrad wechseln"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:396
+#. i18n: ectx: property (text), widget (QCheckBox, expandOnAttention)
+#: rc.cpp:91
+msgid "Expand on &Attention"
+msgstr "Bei geforderter &Aufmerksamkeit aufklappen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:404
+#. i18n: ectx: attribute (title), widget (QWidget, taskbarLayoutTab)
+#: rc.cpp:94
+msgid "Taskbar Layout"
+msgstr "Taskleisten-Layout"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:431
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:97
+msgid "Row Constraints"
+msgstr "Zeilen-Beschränkungen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:438
+#. i18n: ectx: property (text), widget (QLabel, minimumRowsLabel)
+#: rc.cpp:100
+msgid "&Minimum Rows:"
+msgstr "&Minimale Zeilenanzahl:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:454
+#. i18n: ectx: property (toolTip), widget (QSpinBox, minimumRows)
+#: rc.cpp:103
+msgid ""
+"This defines the minimum row count. Some layouts stretch the filled rows in "
+"order to fill any empty space. This way the displayed rows might be still "
+"fewer than this value."
+msgstr ""
+"Dieser Wert gibt die minimale Zeilenanzahl an. Manche Layouts strecken die "
+"gefüllten Zeilen so, dass keine leeren Zeilen angezeigt werden. In diesen "
+"Fall können weniger Zeilen angezeigt werden als dieser Wert angibt."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:467
+#. i18n: ectx: property (text), widget (QLabel, maximumRowsLabel)
+#: rc.cpp:106
+msgid "Ma&ximum Rows:"
+msgstr "Ma&ximale Zeilenanzahl:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:483
+#. i18n: ectx: property (toolTip), widget (QSpinBox, maximumRows)
+#: rc.cpp:109
+msgid "This defines the maximum row count."
+msgstr "Dieser Wert gibt die maximale Anzahl an Zeilen an."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:523
+#. i18n: ectx: property (text), widget (QLabel, taskbarLayoutLabel)
+#: rc.cpp:112
+msgid "&Layout:"
+msgstr "&Layout:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:559
+#. i18n: ectx: property (toolTip), widget (QComboBox, taskbarLayout)
+#: rc.cpp:115
+msgid ""
+"<p>The layout is responsible for the size and placement of the task items.\n"
+"Each of the provided layouts has other advantages and disadvantages.\n"
+"Because I can't decide which layouting strategy is best suited for this "
+"purpose I include several choices for now.</p>\n"
+"\n"
+"<h4>By Taskbar Shape</h4>\n"
+"<p>This layout creates as much rows as are needed so that following "
+"condition is met:</p>\n"
+"<pre>row height &times; row aspect ratio &le; row width</pre>\n"
+"<p>However, if this would yield empty rows the filled rows are scaled in "
+"height so that the whole task bar space is covered.</p>\n"
+"\n"
+"<h4>Maximum Squeeze</h4>\n"
+"<p>Because the width of the task items depends of their height the more rows "
+"there are the less room the items occupy.\n"
+"This layout sets the width of the task items always to the width they would "
+"have when the row count would have reached the maximally allowed value.\n"
+"\n"
+"<h4>Fixed Item Number per Row</h4>\n"
+"<p>This layout always put the configured number of task items into one row, "
+"unless there would not be enough room for all task items.\n"
+"Then the items are distributed evenly over the rows.</p>\n"
+"\n"
+"<h4>Limited Squeeze</h4>\n"
+"<p>This layout tries to squeeze the task items only up to a given maximum "
+"squeeze ratio. If it would have to squeeze them more than that it creates a "
+"new row. Currently this layout is the only one that respects the “Prefer "
+"Grouping” setting.</p>\n"
+"\n"
+"<h4>Fixed Maximum Item Height</h4>\n"
+"<p>This layout always assumes the configured height of the task items.\n"
+"Through the dependency between the width and height of the task items this "
+"leads to a specific distribution of the items.\n"
+"This layout does not fill empty space by up-scaling the rows.</p>"
+msgstr ""
+"<p>Das Layout ist für die Größe und die Platzierung der Tasks "
+"verantwortlich.\n"
+"Jedes der zur Verfügung gestellten Layouts hat Vor- und Nachteile.\n"
+"Zumal ich nicht zu entscheiden mag welches am besten für eine Taskleiste "
+"geeignet ist, biete ich eine Auswahl von Layouts an.</p>\n"
+"\n"
+"<h4>Nach der Form der Taskleiste</h4>\n"
+"<p>Dieses Layout erzeugt so viele Zeilen wie nötig um folgende Bedingung zu "
+"erfüllen:</p>\n"
+"<pre>Zeilenhöhe &times; Zeilen Seitenverhältnis &le; Zeilenbreite</pre>\n"
+"<p>Wenn jedoch hieraus Leerzeilen erfolgen würden werden die gefüllten "
+"Zeilen in ihrer Höhe skaliert um den freien Bereich aufzufüllen.</p>\n"
+"\n"
+"<h4>Maximale Dichte</h4>\n"
+"<p>Zumal die Breite der Tasks von ihrer Höhe abhängt passen immer mehr Tasks "
+"in eine Zeile, je mehr Zeilen es gibt. Dieses Layout setzt die Breite der "
+"Tasks immer auf die Breite, die sie hätten wenn die <tt>Maximale "
+"Zeilenanzahl</tt> erreicht wäre.</p>\n"
+"<h4>Fixe Anzahl von Tasks pro Zeile</h4>\n"
+"<p>Dieses Layout setzt immer die konfigurierte Anzahl und Tasks in eine "
+"Zeile, außer es gibt nicht genug Platz für alle Tasks. Dann werden die Tasks "
+"auf alle Zeilen gleich aufgeteilt.</p>\n"
+"<h4>Beschränkte Komprimierung</h4>\n"
+"<p>Dieses Layout versucht die Tasks nicht mehr als die angegebenen maximale "
+"Komprimierung zu schrumpfen. Wenn die Tasks stärker geschrumpft werden "
+"müssten um in eine Zeile zu passen wird eine neue Zeile eingefügt. Zur Zeit "
+"ist dieses Layout das einzige, welches die „Bevorzuge Gruppierung“ Option "
+"respektiert.</p>\n"
+"<h4>Fixe maximale Task Höhe</h4>\n"
+"<p>Dieses Layout nimmt immer die konfigurierte Höhe der Tasks an. Durch die "
+"Abhängigkeit zwischen der Breite und Höhe der Tasks führt dies zu einer "
+"spezifischen Aufteilung der Tasks auf die Zeilen. Dieses Layout füllt "
+"etwaigen freien Raum nicht auf.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:584
+#. i18n: ectx: property (text), widget (QLabel, rowAspectRatioLabel)
+#: rc.cpp:141
+msgid "Row &Aspect Ratio:"
+msgstr "Zeilen-&Seitenverhältnis:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:597
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, rowAspectRatio)
+#: rc.cpp:144
+msgid ""
+"The “By Taskbar Shape” layout uses this value to determine how many rows "
+"should be created."
+msgstr ""
+"Das „Nach der Form der Taskleiste“-Layout verwendet diesen Wert um zu "
+"ermitteln wie viele Zeilen angezeigt werden sollen."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:619
+#. i18n: ectx: property (text), widget (QLabel, itemsPerRowLabel)
+#: rc.cpp:147
+msgid "&Items per Row:"
+msgstr "Tasks pro &Zeile"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:635
+#. i18n: ectx: property (toolTip), widget (QSpinBox, itemsPerRow)
+#: rc.cpp:150
+msgid ""
+"The “Fixed Item Number per Row” layout uses this amount to fill the rows "
+"with task items."
+msgstr ""
+"Das „Fixe Anzahl von Tasks pro Zeile“-Layout verwendet diesen Wert um die "
+"Zeilen mit entsprechend vielen Tasks aufzufüllen."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:648
+#. i18n: ectx: property (text), widget (QLabel, itemHeightLabel)
+#: rc.cpp:153
+msgid "Maximum Item &Height:"
+msgstr "Maximale Task-&Höhe"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:664
+#. i18n: ectx: property (toolTip), widget (QSpinBox, itemHeight)
+#: rc.cpp:156
+msgid ""
+"The “Fixed Maximum Item Height” layout uses this value to determine the size "
+"of the task items."
+msgstr ""
+"Das „Fixe maximale Task Höhe“-Layout verwendet diesen Wert um die Größe der "
+"Tasks zu ermitteln."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:680
+#. i18n: ectx: property (text), widget (QLabel, squeezeRatioLabel)
+#: rc.cpp:162
+msgid "Maximum &Squeeze Ratio:"
+msgstr "Maximales &Komprimierungsverhältnis:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:693
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, squeezeRatio)
+#: rc.cpp:165
+msgid ""
+"<p>The “Limited Squeeze” layout tries not to squeeze items so that "
+"<tt>squeezed item width / item width &ge; maximum squeeze ratio</tt>.</p>"
+msgstr ""
+"<p>Das „Beschränkte Komprimierung“ Layout versucht die Tasks nur so stark zu "
+"komprimieren, dass <tt>Komprimierte Task-Breite / Task-Breite &ge; Maximale "
+"Komprimierung</tt> erfüllt ist.</p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:715
+#. i18n: ectx: property (toolTip), widget (QCheckBox, preferGrouping)
+#: rc.cpp:168
+msgid ""
+"Prefere grouping of tasks over the creation of new rows (currently only "
+"supported by the Limited Squeeze” layout)."
+msgstr ""
+"Bevorzuge das Gruppieren von Tasks vor dem Erzeugen neuer Zeilen (zur Zeit "
+"nur vom „Beschränkte Komprimierung“-Layout unterstützt)."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:718
+#. i18n: ectx: property (text), widget (QCheckBox, preferGrouping)
+#: rc.cpp:171
+msgid "&Prefer Grouping"
+msgstr "&Bevorzuge Gruppierung"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:726
+#. i18n: ectx: attribute (title), widget (QWidget, toolTipTab)
+#: rc.cpp:174
+msgid "Tool Tip"
+msgstr "Kurzinfo"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:744
+#. i18n: ectx: property (text), widget (QLabel, previewLayoutLabel)
+#: rc.cpp:177
+msgid "Preview St&yle:"
+msgstr "&Vorschaumodus:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:764
+#. i18n: ectx: property (toolTip), widget (QComboBox, previewLayout)
+#: rc.cpp:180
+msgid ""
+"<h4>Classic</h4>\n"
+"<p><img src=\":/imgs/imgs/classic-style.png\" /></p>\n"
+"\n"
+"<h4>New</h4>\n"
+"<p><img src=\":/imgs/imgs/new-style.png\" /></p>"
+msgstr ""
+"<h4>Klassisch</h4>\n"
+"<p><img src=\":/imgs/imgs/classic-style.png\" /></p>\n"
+"\n"
+"<h4>Neu</h4>\n"
+"<p><img src=\":/imgs/imgs/new-style.png\" /></p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:771
+#. i18n: ectx: property (text), widget (QLabel, maxPreviewSizeLabel)
+#: rc.cpp:187
+msgid "Preview Si&ze:"
+msgstr "Vorschau&größe:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:787
+#. i18n: ectx: property (toolTip), widget (QSpinBox, maxPreviewSize)
+#: rc.cpp:190
+msgid "This value defines the maximum length of one side of window previews."
+msgstr ""
+"Dieser Wert definiert die maximale Länge einer Seite der Vorschaubilder."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:820
+#. i18n: ectx: property (text), widget (QLabel, toolTipKindLabel)
+#: rc.cpp:196
+msgid "Tool Tip &Type:"
+msgstr "Kurz&info-Art:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:840
+#. i18n: ectx: property (toolTip), widget (QComboBox, toolTipKind)
+#: rc.cpp:199
+msgid ""
+"<h4>None</h4>\n"
+"<p>Don't display tool tips.</p>\n"
+"\n"
+"<h4>Smooth</h4>\n"
+"<p>Use advanced tool tips for the task items. These tool tips show window "
+"previews that can be clicked to activate the corresponding window. When you "
+"hover the preview the window gets highlighted. However, this kind of tool "
+"tip is not well integrated with plasma.</p>\n"
+"\n"
+"<h4>Plasma</h4>\n"
+"<p>Use native plasma tool tips. This kind of tool tips do not provide the "
+"features described above. Instead they integrate well with other applet's "
+"tool tips and move animated across applets.</p>"
+msgstr ""
+"<h4>Keine</h4>\n"
+"<p>Keine Kurzinfos anzeigen.</p>\n"
+"\n"
+"<h4>Smooth</h4>\n"
+"<p>Diese Art der Kurzinfos zeigt Vorschaubilder an, die angeklickt werden "
+"können um die entsprechenden Fenster zu aktivieren. Bei Mauskontakt wird das "
+"dazugehörende Fenster hervorgehoben. Diese Kurzinfos integrieren sich jedoch "
+"nicht vollständig in die Plasma-Oberfläche.</p>\n"
+"\n"
+"<h4>Plasma</h4>\n"
+"<p>Diese Art der Kurzinfos bietet keine der oben genannten Eigenschaften "
+"and, integriert sich jedoch in die Plasma-Oberfläche. Dies bedeutet Plasma "
+"Kurzinfos bewegen sich über Applet Grenzen hinweg auch zu anderen Applets.</"
+"p>"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:862
+#. i18n: ectx: property (suffix), widget (QSpinBox, tooltipMoveDuration)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:895
+#. i18n: ectx: property (suffix), widget (QSpinBox, highlightDelay)
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:978
+#. i18n: ectx: property (suffix), widget (QSpinBox, animationDuration)
+#: rc.cpp:209 rc.cpp:218 rc.cpp:236
+msgid "ms"
+msgstr "ms"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:875
+#. i18n: ectx: property (text), widget (QLabel, tooltipMoveDurationLabel)
+#: rc.cpp:212
+msgid "Move &Duration:"
+msgstr "&Bewegungsdauer:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:885
+#. i18n: ectx: property (text), widget (QLabel, highlightDelayLabel)
+#: rc.cpp:215
+msgid "&Highlight Delay:"
+msgstr "&Hervorhebungs Verzögerung:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:909
+#. i18n: ectx: attribute (title), widget (QWidget, animationTab)
+#: rc.cpp:221
+msgid "Animation"
+msgstr "Animation"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:927
+#. i18n: ectx: property (text), widget (QLabel, fpsLabel)
+#: rc.cpp:224
+msgid "&Frames per Second:"
+msgstr "Bil&der in der Sekunde:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:943
+#. i18n: ectx: property (suffix), widget (QSpinBox, fps)
+#: rc.cpp:227
+msgid "fps"
+msgstr "fps"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:959
+#. i18n: ectx: property (text), widget (QLabel, animationDurationLabel)
+#: rc.cpp:230
+msgid "&Animation Duration:"
+msgstr "&Animationdauer:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/Appearance.ui:975
+#. i18n: ectx: property (toolTip), widget (QSpinBox, animationDuration)
+#: rc.cpp:233
+msgid ""
+"This defines the duration of animations like the expansion of tasks and the "
+"delay for which a tool tip will be shown after you stopped hovering the task "
+"item or tool tip."
+msgstr ""
+"Dieser Wert gibt die Dauer von Animationen wie das Aufklappen der Tasks und "
+"die Dauer für welche Kurzinfos noch angezeigt werden sollen, wenn die Maus "
+"diese bzw. den entsprechenden Task bereits verlassen hat."
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:44
+#. i18n: ectx: property (text), widget (QLabel, groupingAndSportingLabel)
+#: rc.cpp:245
+msgid "Grouping & Sorting"
+msgstr "Gruppierung und Sortierung"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:51
+#. i18n: ectx: property (text), widget (QLabel, groupingLabel)
+#: rc.cpp:248
+msgid "&Grouping:"
+msgstr "&Gruppierung:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:89
+#. i18n: ectx: property (text), widget (QCheckBox, onlyGroupWhenFull)
+#: rc.cpp:251
+msgid "Only when the taskbar is &full"
+msgstr "Nur falls die Taskleiste &voll ist"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:98
+#. i18n: ectx: property (text), widget (QLabel, sortingLabel)
+#: rc.cpp:254
+msgid "&Sorting:"
+msgstr "&Sortieren:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:136
+#. i18n: ectx: property (text), widget (QLabel, filtersLabel)
+#: rc.cpp:257
+msgid "Filters"
+msgstr "Filter"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyMinimized)
+#: rc.cpp:260
+msgid "Only show tasks that are &minimized"
+msgstr "Nur &minimierte Fenster anzeigen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:188
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentDesktop)
+#: rc.cpp:263
+msgid "Only show tasks from the current &desktop"
+msgstr "Nur Fenster der aktuellen &Arbeitsfläche anzeigen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:215
+#. i18n: ectx: property (text), widget (QCheckBox, showOnlyCurrentScreen)
+#: rc.cpp:266
+msgid "Only show tasks from the current s&creen"
+msgstr "Nur Fenster des aktuellen &Bildschirms anzeigen"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:237
+#. i18n: ectx: property (text), widget (QLabel, middleClickActionLabel)
+#: rc.cpp:269
+msgid "Middle Click &Action:"
+msgstr "Mittel-Klick &Aktion:"
+
+#. i18n: file: ../applet/SmoothTasks/Ui/General.ui:247
+#. i18n: ectx: property (toolTip), widget (QComboBox, middleClickAction)
+#: rc.cpp:272
+msgid "Action that should be performed when a task item is middle clicked."
+msgstr "Auszuführende Aktion, wenn die mittlere Maustaste auf einem Task geklickt wird."
+
+#: rc.cpp:273
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Fabian Würtz, Mathias Panzenböck, Markus Slopianka"
+
+#: rc.cpp:274
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "xadras@sidux.com, grosser.meister.morti@gmx.net, kamikazow@web.de"

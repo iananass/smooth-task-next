@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Appearance</class>
+ <widget class="QWidget" name="Appearance">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>483</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Appearance</string>
+  </property>
+  <property name="accessibleName">
+   <string>Appearance</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="taskItemsTab">
+      <attribute name="title">
+       <string>Task Items</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::ExpandingFieldsGrow</enum>
+       </property>
+       <property name="leftMargin">
+        <number>15</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item row="1" column="0">
+        <widget class="QLabel" name="taskShapeLabel">
+         <property name="text">
+          <string>Task &amp;Shape:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>shape</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="shape">
+         <property name="toolTip">
+          <string>&lt;p&gt;This setting is only effective when there is enough room in the taskbar to display the task items in the according shape.&lt;/p&gt;
+
+&lt;h4&gt;Rectangle&lt;/h4&gt;
+&lt;p&gt;Displays collapsed task items as rectangles.&lt;/p&gt;
+
+&lt;h4&gt;Square&lt;/h4&gt;
+&lt;p&gt;Displays collapsed task items as squares.&lt;/p&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="spaceLabel">
+         <property name="text">
+          <string>Space &amp;Between Tasks:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>taskSpacing</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="taskSpacing">
+         <property name="suffix">
+          <string>px</string>
+         </property>
+         <property name="maximum">
+          <number>15</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="iconScaleLabel">
+         <property name="text">
+          <string>&amp;Icon Scale:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>iconScale</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="iconScale">
+         <property name="toolTip">
+          <string>The scale of the task icons in relation to the height/width (whatever is smaller) of the task item.</string>
+         </property>
+         <property name="suffix">
+          <string>%</string>
+         </property>
+         <property name="minimum">
+          <number>10</number>
+         </property>
+         <property name="maximum">
+          <number>100</number>
+         </property>
+         <property name="value">
+          <number>90</number>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0" colspan="2">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>5</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="10" column="0">
+        <widget class="QCheckBox" name="expandTasks">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>&amp;Expand Tasks</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="0">
+        <widget class="QLabel" name="expandingSizeLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>E&amp;xpanding Size:</string>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>expandingSize</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QSpinBox" name="expandingSize">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>This is the additional size that gets added to a task item when it expands. Keep in mind that the task items might not be able to expand fully when there is not enough room.</string>
+         </property>
+         <property name="suffix">
+          <string>px</string>
+         </property>
+         <property name="minimum">
+          <number>20</number>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+         <property name="value">
+          <number>175</number>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="0">
+        <widget class="QLabel" name="keepExpandedLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>&amp;Keep Expanded:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>keepExpanded</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="16" column="1">
+        <widget class="QComboBox" name="keepExpanded">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="sizeAdjustPolicy">
+          <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="0" colspan="2">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>5</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="20" column="0">
+        <widget class="QCheckBox" name="lights">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string>When this is checked a blob of light is drawn on the task items when you hover them or when they demand attention.</string>
+         </property>
+         <property name="text">
+          <string>&amp;Lights</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="1">
+        <widget class="KColorButton" name="lightColor">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="color">
+          <color alpha="200">
+           <red>78</red>
+           <green>196</green>
+           <blue>249</blue>
+          </color>
+         </property>
+         <property name="defaultColor">
+          <color alpha="200">
+           <red>78</red>
+           <green>196</green>
+           <blue>249</blue>
+          </color>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="1">
+        <widget class="QCheckBox" name="expandOnHover">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Expand on &amp;Hover</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QCheckBox" name="dontRotateFrame">
+         <property name="toolTip">
+          <string>For some plasma themes task items might look better when their frames are not rotated. This only concerns vertical layouts, e.g. when you place the taskbar at the left (or right) screen edge.</string>
+         </property>
+         <property name="text">
+          <string>Don't &amp;Rotate Frames</string>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="1">
+        <widget class="QCheckBox" name="onlyLights">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>Usually a different frame for hovered task items is used. But for some plasma themes this might look ugly in combination with the light effect. Using this option you can deactivate the usage of a different task item frame on hover.</string>
+         </property>
+         <property name="text">
+          <string>As &amp;Only Hover Effect</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QCheckBox" name="textShadow">
+         <property name="text">
+          <string>Draw &amp;Text-Shadow</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="1">
+        <widget class="QCheckBox" name="lightColorFromIcon">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>When this is checked the dominant color of the task icon is used as the light color. When only an ugly (grayish) color could be extracted the color specified above is used instead.</string>
+         </property>
+         <property name="text">
+          <string>Color From &amp;Icon</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="0">
+        <widget class="QLabel" name="colorLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>&amp;Color:</string>
+         </property>
+         <property name="buddy">
+          <cstring>lightColor</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QCheckBox" name="scrollSwitchTasks">
+         <property name="text">
+          <string>Switch Tasks using &amp;Wheel</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="17" column="1">
+        <widget class="QCheckBox" name="expandOnAttention">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Expand on &amp;Attention</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="taskbarLayoutTab">
+      <attribute name="title">
+       <string>Taskbar Layout</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout_4">
+       <property name="fieldGrowthPolicy">
+        <enum>QFormLayout::ExpandingFieldsGrow</enum>
+       </property>
+       <property name="leftMargin">
+        <number>15</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>Row Constraints</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="minimumRowsLabel">
+         <property name="text">
+          <string>&amp;Minimum Rows:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>minimumRows</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="minimumRows">
+         <property name="toolTip">
+          <string>This defines the minimum row count. Some layouts stretch the filled rows in order to fill any empty space. This way the displayed rows might be still fewer than this value.</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>128</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="maximumRowsLabel">
+         <property name="text">
+          <string>Ma&amp;ximum Rows:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>maximumRows</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="maximumRows">
+         <property name="toolTip">
+          <string>This defines the maximum row count.</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>128</number>
+         </property>
+         <property name="value">
+          <number>3</number>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>5</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="taskbarLayoutLabel">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>&amp;Layout:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>taskbarLayout</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="taskbarLayout">
+           <property name="toolTip">
+            <string>&lt;p&gt;The layout is responsible for the size and placement of the task items.
+Each of the provided layouts has other advantages and disadvantages.
+Because I can't decide which layouting strategy is best suited for this purpose I include several choices for now.&lt;/p&gt;
+
+&lt;h4&gt;By Taskbar Shape&lt;/h4&gt;
+&lt;p&gt;This layout creates as much rows as are needed so that following condition is met:&lt;/p&gt;
+&lt;pre&gt;row height &amp;times; row aspect ratio &amp;le; row width&lt;/pre&gt;
+&lt;p&gt;However, if this would yield empty rows the filled rows are scaled in height so that the whole task bar space is covered.&lt;/p&gt;
+
+&lt;h4&gt;Maximum Squeeze&lt;/h4&gt;
+&lt;p&gt;Because the width of the task items depends of their height the more rows there are the less room the items occupy.
+This layout sets the width of the task items always to the width they would have when the row count would have reached the maximally allowed value.
+
+&lt;h4&gt;Fixed Item Number per Row&lt;/h4&gt;
+&lt;p&gt;This layout always put the configured number of task items into one row, unless there would not be enough room for all task items.
+Then the items are distributed evenly over the rows.&lt;/p&gt;
+
+&lt;h4&gt;Limited Squeeze&lt;/h4&gt;
+&lt;p&gt;This layout tries to squeeze the task items only up to a given maximum squeeze ratio. If it would have to squeeze them more than that it creates a new row. Currently this layout is the only one that respects the “Prefer Grouping” setting.&lt;/p&gt;
+
+&lt;h4&gt;Fixed Maximum Item Height&lt;/h4&gt;
+&lt;p&gt;This layout always assumes the configured height of the task items.
+Through the dependency between the width and height of the task items this leads to a specific distribution of the items.
+This layout does not fill empty space by up-scaling the rows.&lt;/p&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="rowAspectRatioLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Row &amp;Aspect Ratio:</string>
+         </property>
+         <property name="buddy">
+          <cstring>rowAspectRatio</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QDoubleSpinBox" name="rowAspectRatio">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>The “By Taskbar Shape” layout uses this value to determine how many rows should be created.</string>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+         <property name="minimum">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>1.500000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="itemsPerRowLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>&amp;Items per Row:</string>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>itemsPerRow</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QSpinBox" name="itemsPerRow">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>The “Fixed Item Number per Row” layout uses this amount to fill the rows with task items.</string>
+         </property>
+         <property name="value">
+          <number>14</number>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="0">
+        <widget class="QLabel" name="itemHeightLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Maximum Item &amp;Height:</string>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>itemHeight</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QSpinBox" name="itemHeight">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>The “Fixed Maximum Item Height” layout uses this value to determine the size of the task items.</string>
+         </property>
+         <property name="suffix">
+          <string>px</string>
+         </property>
+         <property name="value">
+          <number>60</number>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QLabel" name="squeezeRatioLabel">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>Maximum &amp;Squeeze Ratio:</string>
+         </property>
+         <property name="buddy">
+          <cstring>squeezeRatio</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QDoubleSpinBox" name="squeezeRatio">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>&lt;p&gt;The “Limited Squeeze” layout tries not to squeeze items so that &lt;tt&gt;squeezed item width / item width &amp;ge; maximum squeeze ratio&lt;/tt&gt;.&lt;/p&gt;</string>
+         </property>
+         <property name="decimals">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <double>1.000000000000000</double>
+         </property>
+         <property name="singleStep">
+          <double>0.100000000000000</double>
+         </property>
+         <property name="value">
+          <double>0.600000000000000</double>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QCheckBox" name="preferGrouping">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="toolTip">
+          <string>Prefere grouping of tasks over the creation of new rows (currently only supported by the Limited Squeeze” layout).</string>
+         </property>
+         <property name="text">
+          <string>&amp;Prefer Grouping</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="toolTipTab">
+      <attribute name="title">
+       <string>Tool Tip</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout_3">
+       <property name="leftMargin">
+        <number>15</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item row="1" column="0">
+        <widget class="QLabel" name="previewLayoutLabel">
+         <property name="text">
+          <string>Preview St&amp;yle:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>previewLayout</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="previewLayout">
+         <property name="toolTip">
+          <string>&lt;h4&gt;Classic&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;:/imgs/imgs/classic-style.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4&gt;New&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;:/imgs/imgs/new-style.png&quot; /&gt;&lt;/p&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="maxPreviewSizeLabel">
+         <property name="text">
+          <string>Preview Si&amp;ze:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>maxPreviewSize</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="maxPreviewSize">
+         <property name="toolTip">
+          <string>This value defines the maximum length of one side of window previews.</string>
+         </property>
+         <property name="suffix">
+          <string>px</string>
+         </property>
+         <property name="minimum">
+          <number>5</number>
+         </property>
+         <property name="maximum">
+          <number>500</number>
+         </property>
+         <property name="value">
+          <number>200</number>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="toolTipKindLabel">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Tool Tip &amp;Type:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+           <property name="buddy">
+            <cstring>toolTipKind</cstring>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="toolTipKind">
+           <property name="toolTip">
+            <string>&lt;h4&gt;None&lt;/h4&gt;
+&lt;p&gt;Don't display tool tips.&lt;/p&gt;
+
+&lt;h4&gt;Smooth&lt;/h4&gt;
+&lt;p&gt;Use advanced tool tips for the task items. These tool tips show window previews that can be clicked to activate the corresponding window. When you hover the preview the window gets highlighted. However, this kind of tool tip is not well integrated with plasma.&lt;/p&gt;
+
+&lt;h4&gt;Plasma&lt;/h4&gt;
+&lt;p&gt;Use native plasma tool tips. This kind of tool tips do not provide the features described above. Instead they integrate well with other applet's tool tips and move animated across applets.&lt;/p&gt;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="tooltipMoveDuration">
+         <property name="suffix">
+          <string>ms</string>
+         </property>
+         <property name="maximum">
+          <number>2000</number>
+         </property>
+         <property name="value">
+          <number>500</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="tooltipMoveDurationLabel">
+         <property name="text">
+          <string>Move &amp;Duration:</string>
+         </property>
+         <property name="buddy">
+          <cstring>tooltipMoveDuration</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="highlightDelayLabel">
+         <property name="text">
+          <string>&amp;Highlight Delay:</string>
+         </property>
+         <property name="buddy">
+          <cstring>highlightDelay</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QSpinBox" name="highlightDelay">
+         <property name="suffix">
+          <string>ms</string>
+         </property>
+         <property name="minimum">
+          <number>50</number>
+         </property>
+         <property name="maximum">
+          <number>1000</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="animationTab">
+      <attribute name="title">
+       <string>Animation</string>
+      </attribute>
+      <layout class="QFormLayout" name="formLayout_2">
+       <property name="leftMargin">
+        <number>15</number>
+       </property>
+       <property name="topMargin">
+        <number>10</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <property name="bottomMargin">
+        <number>10</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QLabel" name="fpsLabel">
+         <property name="text">
+          <string>&amp;Frames per Second:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>fps</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="fps">
+         <property name="suffix">
+          <string>fps</string>
+         </property>
+         <property name="minimum">
+          <number>1</number>
+         </property>
+         <property name="maximum">
+          <number>60</number>
+         </property>
+         <property name="value">
+          <number>25</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="animationDurationLabel">
+         <property name="text">
+          <string>&amp;Animation Duration:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <property name="indent">
+          <number>20</number>
+         </property>
+         <property name="buddy">
+          <cstring>animationDuration</cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="animationDuration">
+         <property name="toolTip">
+          <string>This defines the duration of animations like the expansion of tasks and the delay for which a tool tip will be shown after you stopped hovering the task item or tool tip.</string>
+         </property>
+         <property name="suffix">
+          <string>ms</string>
+         </property>
+         <property name="minimum">
+          <number>0</number>
+         </property>
+         <property name="maximum">
+          <number>5000</number>
+         </property>
+         <property name="value">
+          <number>250</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>KColorButton</class>
+   <extends>QPushButton</extends>
+   <header>kcolorbutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>shape</tabstop>
+  <tabstop>taskSpacing</tabstop>
+  <tabstop>iconScale</tabstop>
+  <tabstop>dontRotateFrame</tabstop>
+  <tabstop>textShadow</tabstop>
+  <tabstop>scrollSwitchTasks</tabstop>
+  <tabstop>expandTasks</tabstop>
+  <tabstop>expandingSize</tabstop>
+  <tabstop>keepExpanded</tabstop>
+  <tabstop>expandOnAttention</tabstop>
+  <tabstop>expandOnHover</tabstop>
+  <tabstop>lights</tabstop>
+  <tabstop>lightColor</tabstop>
+  <tabstop>lightColorFromIcon</tabstop>
+  <tabstop>onlyLights</tabstop>
+  <tabstop>minimumRows</tabstop>
+  <tabstop>maximumRows</tabstop>
+  <tabstop>taskbarLayout</tabstop>
+  <tabstop>rowAspectRatio</tabstop>
+  <tabstop>itemsPerRow</tabstop>
+  <tabstop>itemHeight</tabstop>
+  <tabstop>squeezeRatio</tabstop>
+  <tabstop>preferGrouping</tabstop>
+  <tabstop>toolTipKind</tabstop>
+  <tabstop>previewLayout</tabstop>
+  <tabstop>maxPreviewSize</tabstop>
+  <tabstop>tooltipMoveDuration</tabstop>
+  <tabstop>highlightDelay</tabstop>
+  <tabstop>fps</tabstop>
+  <tabstop>animationDuration</tabstop>
+ </tabstops>
+ <resources>
+  <include location="../../resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>expandingSize</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>241</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>keepExpanded</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>keepExpandedLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>150</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>expandingSizeLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>58</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>261</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>expandOnHover</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>89</x>
+     <y>227</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>219</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lights</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>onlyLights</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>364</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>463</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lights</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lightColorFromIcon</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>123</x>
+     <y>364</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>205</x>
+     <y>423</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lights</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>colorLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>174</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>173</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lights</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>lightColor</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>160</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>217</x>
+     <y>410</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>expandTasks</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>expandOnAttention</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>230</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>211</x>
+     <y>316</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

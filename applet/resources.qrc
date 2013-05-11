@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imgs" >
+        <file>imgs/classic-style.png</file>
+        <file>imgs/new-style.png</file>
+    </qresource>
+</RCC>

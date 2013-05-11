@@ -1,0 +1,359 @@
+wip 2010-11-06:
+FIX: drop whole groups onto pager (removed workaround for KDE < 4.5 which could not handle groups at all)
+FIX: when dragging a task only a tiny bit it's position was not reset
+Maybe FIX: a very rare tooltip positioning bug (I have o wait if it reoccurs)
+
+wip 2010-11-05 update 1:
+FIX: fixed unwanted highlight behaviour change which reintroduces flickering :(
+
+wip 2010-11-05:
+FIX: tooltip appearance and background blur under KDE 4.5
+FIX: less flickering for the kwin highlight effect
+
+wip 2010-02-27:
+FIX: less flickering for the window preview effect because I removed the kwin highlight  effect bug workaround (that bug was obviously fixed in kde 4.4)
+FIX: crash when right-click on startup item, thanks to anonymous
+
+wip 2010-02-13 update 2:
+FIX: hopefully fixed bug concerning missing taskbar entries
+
+wip 2010-02-13 update 1:
+NOTE: since wip 2010-02-13 Smooth Tasks probably only works with kde 4.4 (and no longer with kde <= 4.3)
+FIX: same crash as in last version in other places
+FIX: correct handling of the root group under kde 4.4
+
+wip 2010-02-13:
+FIX: taskbar items where not updated on desktop switch under kde 4.4
+FIX: crash tasks where deleted but not yet removed from the layout (happened sometimes on desktop switch under kde 4.4)
+
+wip 2010-02-12:
+FIX: be more careful in TaskbarLayout::clear, hopefully fixes a crash, thanks to flupp
+Translations:
+ * updated polish translation, thanks to Maciej Warnecki
+
+wip 2009-12-06:
+NEW: also do middle click action on tooltip
+FIX: chinese translation by Weng Xuetian (hurricanek)
+
+wip 2009-11-26:
+FIX: tiny bit better animation tick time calculation
+Translations:
+ * updated polish translation, thanks to Maciej Warnecki
+
+wip 2009-11-20:
+FIX: taskbar getting stuck issue, much thanks to the bitbucket user flupp for fixing this!
+
+wip 2009-11-16:
+FIX: text placement (more like the original taskbar does it)
+Translations:
+ * updated russian translation, thanks to xep
+
+wip 2009-11-11:
+Translations:
+ * added chinese translation, thanks to Weng Xuetian (hurricanek)
+ * updated french translation, thanks to Sergio
+ * added ukrainian translation, thanks to Oleksandr Natalenko
+
+wip 2009-11-07:
+NEW: added middle click actions because of popular demand
+
+wip 2009-11-03:
+FIX: don't hide the panel when the tooltip is displayed
+
+wip 2009-11-02:
+FIX: gave tooltips a reasonable width when composite is deactivated an thus no preview is shown
+
+wip 2009-11-01:
+FIX: another tooltip placement regression
+
+wip 2009-10-30:
+FIX: crash on right click on startup items
+
+wip 2009-10-29:
+FIX: tooltip layout (text was not expanding horizontally properly)
+
+wip 2009-10-28:
+FIX: keep window order when raising/iconifying groups. thanks to mtz92 for the hint on how to do this
+
+wip 2009-10-27:
+FIX: tooltips moved animated even when it weren't shown before
+FIX: correctly track mouse hover state
+Improvements:
+ * updated french translation, thanks to Sergio
+
+wip 2009-10-25:
+FIX: regression where the demand attention animation did only show the light on hover
+
+wip 2009-10-24:
+FIX: tooltip positioning regression
+NEW: optionally expand tasks on attention
+NEW: made task switch using wheel optional
+NEW: made tooltip movement duration configurable
+NEW: configureable initial window highlight delay
+Improvemetns:
+ * fixes in german translation, thanks to Markus 
+
+wip 2009-10-21:
+FIX: tooltip placement when hovering the taskbar really quick after another task was closed and thus its tooltip was hidden
+Improvements:
+ * updated french translation, thanks to Sergio
+
+wip 2009-10-15:
+FIX: compile error
+FIX: expanding/collapsing task regression
+FIX: position of light during expansion
+Improvements:
+ * added russian translation, thanks to xep
+ * updated french translation, thanks to Sergio
+ * context menu does not cover the task item anymore
+
+wip 2009-10-13:
+NEW: made 'light color from icon' optional
+FIX: fixed icon clipping issues which where introduced in the last version
+FIX: corrected light placement for vertical form factors (was wrong only by a few pixels so I guess nobody noticed)
+Improvements:
+ * updated czech translation, thanks to Michal 
+
+wip 2009-10-12:
+FIX: fixed flickering of the tooltip on hover, thanks to SteveMcQwark for the hint
+NEW: option to let the lights be the only hover effect
+NEW: made text shadow optional (the shadow looks pretty ugly for some plasma themes)
+Improvements:
+ * force minimum saturation and value (brightness) for hover light color
+ * updated french translation, thanks to Sergio
+
+wip 2009-10-11:
+NEW: made rotation of the task items frame in vertical layouts optional. with some plasma themes it looks better rotated, with others it looks better not rotated.
+NEW: mouse hover light color is now calculated from the color of the task icon. this is more or less based on Harsh Js code.
+FIX: fixed a possible crash on exit
+
+wip 2009-10-07:
+updated french translation, thanks to Sergio
+
+wip 2009-09-27:
+FIX: bug where widths of task items weren't scaled
+FIX: limited squeeze layout: scale rows so that there are no empty rows
+Improvement:
+ * improved logic for "only group when taskbar is full"
+
+wip 2009-09-26:
+NEW: Michal Odstrčil: option "prefer grouping" (over new rows)
+FIX: Michal Odstrčil: only group when taksbar is full of new "limited squeeze" (former "maximum squeeze ratio") layout
+Improvement:
+ * rotate task frames in vertical mode
+ * updated french translation, thanks to Sergio
+
+wip 2009-09-21:
+FIX: fixed hack for tiny taskbars, should fix placement of text on thin taskbars
+FIX: expansion state update (on desktop change and other state changes)
+NEW: Michal Odstrčil has written a new and better layout "Maximum Squeeze Ratio".
+This layout isn't 100% completed yet (Michal is still working on the "only group when taskbar is full" feature) and also the name might change.
+
+wip 2009-09-18:
+FIX: hide tooltip when window is closed
+Improvement: updated french translation, thanks to Sergio
+
+wip 2009-09-16:
+Improvements:
+ * updated czech translation, thanks to Michal Odstrčil
+ * only squeeze collapsed task items when the expanded ones are already squeezed to the same size, also thanks to Michal Odstrčil
+
+wip 2009-09-15:
+Improvement: updated french translation, thanks to Sergio
+
+wip 2009-09-14:
+NEW: option to enable/disable expand task on hover
+NEW: activate or iconify whole task groups
+Improvement: more tool tips in the settings dialog
+
+wip 2009-09-13:
+FIX: typos and bad wording in the tooltip of the taskbar layout combobox
+Improvements: some code cleanups and refactorings
+
+wip 2009-09-12:
+FIX: right-to-left support was completely broken
+FIX: drag leave tooltip didn't hide the tooltip
+FIX: czech locale name is 'cz'
+Improvements:
+ * always use vertical layout for tooltips when composite is disabled
+ * floatingpoint text layouting (should reduce jumpiness of text)
+ * updated french translation, thanks to Sergio
+ * updated czech translation, thanks to Michal
+ * updated polish translation, thanks to Maciej
+
+wip 2009-09-10:
+FIX: maximum height layout
+FIX: light effect, thanks to Michal Odstrčil
+NEW: added czech translation, thanks to Michal Odstrčil
+Improvement:
+ * added setting for by shape layout to define the row aspect ratio manually
+ * updated hungarian translation, thanks to Zsombor
+ * updated french translation, thanks to Sergio
+ * code cleanups
+
+wip 2009-09-09:
+FIX: fix the plama theme hack, thanks to Michal Odstrčil
+FIX: also delay item expansion (not only collapse)
+NEW: several alternative taskbar layouts to choose from. which one is the best? which one can I drop? each one has pros and cons.
+ * By Taskbar Shape: the layout used until now
+ * Maximum Squeeze: uses the task item size like it would need to use the defined maximum rows
+ * Fixed Item Number per Row: uses a fixed definable number of items per row
+ * Fixed Maximum Item Height: never let the task items get bigger than the defined maximum item height
+NEW: french translation, thanks to Sergio Guibert
+Improvement: improved the settings dialog
+
+wip 2009-09-08:
+FIX: regression where animation duration for tooltip showing delay was ignored
+FIX: small fix to polish translation
+HACK: added hack for plasma themes that define a to large margin
+
+wip 2009-09-06:
+NEW: option to only group items when the taskbar is full
+NEW: two translations (one string in both is translated using Google however):
+ * hungarian: thanks to Nitai
+ * polish: thanks to Maciej Warnecki
+FIX: calculation of preferred size (seems still not to be propagated in some cases)
+FIX: better (diagonal!) tooltip movement, especially for multiple rows or rotated view
+FIX: fixed bug when dropping task to pager and it gets locked or not removed from the taskbar
+
+wip 2009-09-05b:
+FIX: expansion state/animation of newly added task items
+
+wip 2009-09-05a:
+FIX: added short delay for tooltip switching to fix:
+ * reaching tooltips of task items in lower rows
+ * moving to the tooltip but accidently hovering another task item for a very short time
+
+wip 2009-09-05:
+NEW: multirow support! that was hard for my small brain!
+NEW: always 'scroll' (move) tooltips when using the wheel
+NEW: exposing fps setting in UI
+FIX: fixed crash when using wheel on tooltip (in rare cases)
+
+wip 2009-09-02:
+NEW: more 'smooth' animated manual task sorting. This uses QTimer for the
+animation because I find Plasma::Animator much to limited to do such an
+animation. I hope kinetic will be more convenient.
+FIX: fixed a rare crash. let's hope I didn't introduce a new one.
+NEW: now you can scroll the text on animated text labels per dragging it.
+just in case it scrolls to fast/slow for your taste.
+NEW: implemented scrolling of tooltip on mouse wheel when the preview is
+outside of the screen. thanks to ssri for noticing this.
+Improvement:
+Tooltips should now be a bit better glued to their task items.
+
+wip 2009-08-28:
+NEW: work on i18n and german translation (thanks to xadras for reminding me)
+
+wip 2009-08-26:
+NEW: support for native plasma tooltips and for disabling tooltips all together
+
+wip 2009-08-25:
+Improvements:
+vertical ordering of tooltip in vertical form factors
+only show preview area when previews are available (for all those who don't like the previews)
+better (still not perfect) tooltip movement start position
+don't collapse tasks when hovering tooltip
+
+wip 2009-08-24a:
+FIX: hopefully fixed another tooltip movement regression
+
+wip 2009-08-24:
+FIX: reworked tooltip movement (still not perfect on short animation duration)
+FIX: improved tooltip placement, thanks to Michal Odstrčil
+NEW: implemented D'n'D to tooltips. however, sometimes this gets stuck and I have no idea why.
+HACK: it seems like the pager does not support drops of task groups so only drop the first task of the group
+FIX: fixed scrolling over tooltips that didn't work together with normal hovering
+
+wip 2009-08-23a:
+FIX: hopefully fixed tooltip bug which was introduced in the last version
+
+wip 2009-08-23:
+overhaul of animations of the task item (color, frame, expansion)
+update tooltip move animation when task is expanding
+mouse wheel to switch through window previews
+used other border for window previews (is this better or worse?)
+highlight tooltip task icons on hover
+use only current screen geometry for tooltip placement
+fixed annoying off by one pixel bug in tooltip movement
+added cmake requires for KDE4Workspace
+
+wip 2009-08-21:
+FIX: tooltip stealing on window title change bug
+
+wip 2009-08-20:
+FIX: (ugly) workaround for kwin highlight window effect bug
+NEW: allow animation duration time in ragne [0, 500] ms.
+FIX: bug that occurred with duration time = 0 (but possibly also in other corner cases)
+REMOVED: "Show Border Around Window Previews" options (always show it)
+
+wip 2009-08-19:
+NEW: highlight hovered previews
+NEW: right click for context menu on previews. for some reason the 'crash on
+right click' bug disappeared with this change.
+
+wip 2009-08-18:
+Renamed to Smooth Tasks. :)
+A lot of refactoring (now I'm using namespaces).
+NEW: close icon is only shown when hovering the corresponding preview
+NEW: transitions between close icons visual states (hidden, shown, highlighted)
+are now animated
+
+wip 2009-08-17:
+FIX: hopefully really fixing tooltip placement issues on multihead systems
+
+wip 2009-08-16:
+FIX: probably fixed another rare crash on exit. this occurs when the tooltip
+is already deleted but the task items aren't (they access the tooltip in their
+destructor)
+
+wip 2009-08-15:
+FIX: fixed layout spacing
+Improvements:
+faster scroll back of the text when stopping hovering
+delete previews when tooltip is hidden
+
+wip 2009-08-14:
+FIX: tooltips for starting tasks
+NEW: resize previews when their windows are resized. I don't know if I keep
+this because under some circumstances (showing grouped tooltips for several
+automatic and continuous fast resizing windows) this can lock up kwin.
+
+wip 2009-08-13:
+some minor improvements on the code (e.g. removed redundancy a bit)
+
+wip 2009-08-12:
+NEW: scroll text of labels on mouse-hover when the text is to big for the
+label
+FIX: correct placement of non-square icons
+IMPROVEMENT: use KIconEffect for close button highlighting
+
+wip 2009-08-11:
+tiny layout improvement: give text enough room to not crop descenders
+
+wip 2009-08-10a:
+Forgot to add new source files.
+
+wip 2009-08-10:
+FIX: A potential crash on exit (only triggered in rare cases).
+NEW: New alternative tooltip style.
+NEW: Made preview size configurable.
+Visual Improvements:
+Highlight the close button when hovering.
+Fadeout long task names in tooltips.
+
+wip 2009-08-09:
+NEW: update tooltip when task is added/removed
+improved layout
+made border around previews optional
+
+wip 2009-08-08:
+less flicker when moving between tooltip and same task item
+NEW: show number of grouped tasks in taskbar item (copied code from KDEs
+original taskbar plasmoid)
+NEW: window peeking using kwins highlight window effect
+NEW: animated scrolling of tooltip when its to big for the screen (move your
+cursor to the screen edges)
+NEW: tooltip moves animated when moving mouse over taskbar items
+KNOWN ISSUE: sometimes when you move the mouse fast over the taskbar items the
+tooltip contains garbage
