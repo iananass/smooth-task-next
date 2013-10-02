@@ -1,0 +1,10 @@
+/usr/share/locale/cs/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/de/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/fr/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/hu/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/pl/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/ru/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/uk_UA/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/share/locale/zh_CN/LC_MESSAGES/plasma_applet_smooth-tasks.mo
+/usr/lib64/kde4/plasma_applet_smooth-tasks.so
+/usr/share/kde4/services/plasma-applet-smooth-tasks.desktop
